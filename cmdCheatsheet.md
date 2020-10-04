@@ -47,5 +47,5 @@
 ### Chmod
 
 ```chmod 755 -R fileName``` - turns file into executable
-Chmod commands can be found [here] [https://chmodcommand.com/chmod-755/]
+Chmod commands can be found [here] (https://chmodcommand.com/chmod-755/)
 
