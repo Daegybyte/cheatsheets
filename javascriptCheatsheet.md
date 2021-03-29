@@ -8,3 +8,7 @@ parseInt(string, radix).toString(radix2) - converts a string of numbers from one
 
 
 ```//``` && ```/* */``` - single line and mutli-line comments respectively <br />
+
+
+```**``` - to the power of <br />
+((2 ** 3) ** 2) = 64 <br />
