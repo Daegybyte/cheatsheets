@@ -34,15 +34,16 @@
 
 ### Git
 ```git add .``` - puts all files currently not saved to upload on deck <br />
-*```git add -u``` - adds any edited files, but *not* newly created files <br />
+- ```git add -u``` - adds any edited files, but *not* newly created files <br />
 ```git commit``` - takes a snapshot of your work <br />
 ```git push``` - copies the snapshot *to* GitHub <br />
 ```git pull``` - copies the snapshot *from* Github <br />
 ```git status``` - helps diagnose potential problems <br />
+- ```echo .DS_Store >> .gitignore ``` - creates a .gitignore for .DS_Store<br />
 
 ### Misc. <br />
 ```ssh``` - "secure shell" allows remote control/access of offsite machines <br />
-```find . -name ".DS_Store" -print -delete``` - finds a file called .DS store, prints its locations and deletes them all <br />
+```find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch``` - finds a file called .DS store, prints its locations and deletes them all <br />
 
 ### Chmod <br />
 ```chmod 755 -R fileName``` - turns file into executable <br />
