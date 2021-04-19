@@ -8,7 +8,7 @@
 
 ```add r0,r1,r0``` - adds r1+r0 and stores the sum to r0 
 
-```sub r1,r0,r1``` - subtracts r1 - r0 and a stores value to r1. 
+```sub r1,r0,r1``` - subtracts r1 - r0 and a stores value to r1. *The order is *very* important for subtraction*<br>*compared to addition*
 
 ## Set variables
 ```A: 1```
