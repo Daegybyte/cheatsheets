@@ -22,6 +22,8 @@
 
 ```L: add r0,r1,r0``` - sets L to the value in r0
 
+```jump ``` - jump skips over code to a scecfic place. In a loop, jump is placed at the end<br>of the loop to go back to the top of the loop to (maybe) run again.
+
 ### Basic loop example
 This loop will count to 10
 
