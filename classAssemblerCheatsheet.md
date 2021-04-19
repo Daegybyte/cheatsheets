@@ -1,7 +1,7 @@
 # Simple Assembler Cheatsheet for CS1030
 By Diego Pisciotta, 2021<br>
 
-You can find the assembler [here](https://my.eng.utah.edu/~cs1400/assembler-master/Assembler.html)
+### You can find the assembler [here](https://my.eng.utah.edu/~cs1400/assembler-master/Assembler.html)
 
 ```load A, r0``` - Loads value in A to register 0
 
