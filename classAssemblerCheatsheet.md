@@ -18,11 +18,11 @@
 ## Loopy bits
 ```cmp r0, r1``` - Compares the value in r0 to r1
 
-```bgt``` - branch greater than requires an additional input ```bgt
+```bgt``` - branch greater than requires an additional input
 
 ```L: add r0,r1,r0``` - sets L to the value in r0
 
-```jump ``` - jump skips over code to a scecfic place. In a loop, jump is placed at the end<br>of the loop to go back to the top of the loop to (maybe) run again.
+```jump _____ ``` - jump skips over code to a scecfic place ______. In a loop, jump is placed at the end<br>of the loop to go back to the top of the loop to (maybe) run again.
 
 
 
@@ -30,7 +30,7 @@
 ## Misc.
 ```halt``` - stops operation of SC == hex code 'a1'
 
-```clear r0``` - clears the value in r0 (sets r0 to 0)
+```clear r0``` - clears the value in r0 (sets r0 to 0)<br>
 
 
 # Useful loops
@@ -50,14 +50,14 @@
 
 ```cmp r0,r1```<br>
 
-   ```bgt swap```<br>
-   ```store r1, B```<br>
-   ```store r0, A```<br>
+```bgt swap```<br>
+```store r1, B```<br>
+```store r0, A```<br>
 
 ```halt```<br>
 ```swap: ```<br>
-   ```store r0, B```<br>
-   ```store r1, A```<br>
+```store r0, B```<br>
+```store r1, A```<br>
 ```halt```<br>
 
 ```A: 8```<br>
