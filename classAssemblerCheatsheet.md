@@ -18,21 +18,22 @@
 
 ### basic loop example
 This loop will count to 20
-```load i, r0```
-```load N, r1```
-```LOOP:  cmp r0, r1```
-```       bgt END```
-```       load ONE, r1```
-```       add r0,r1,r0```
-```       store r0, i```
-```       load N, r1```
-```       jump LOOP```
-```END:   halt```
+<code>
+load i, r0
+load N, r1
+LOOP:  cmp r0, r1
+       bgt END
+       load ONE, r1
+       add r0,r1,r0
+       store r0, i
+       load N, r1
+       jump LOOP
+END:   halt
 
-```N:     10```
-```i:     1```
-```ONE:   1 ```
-
+N:     10
+i:     1
+ONE:   1
+</code>
 ## Misc.
 ```halt``` - stops operation of SC == hex code 'a1'
 ```clear r0``` - clears the value in r0 (sets r0 to 0)
