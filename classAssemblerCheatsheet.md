@@ -11,7 +11,9 @@
 ```sub r1,r0,r1``` - subtracts r1 - r0 and a stores value to r1. 
 
 ## Set variables
-```A: 1``` ```B: 2``` - Creates two vars A and B and sets them to 1 and 2
+```A: 1```
+
+```B: 2``` - Creates two vars A and B and sets them to 1 and 2
 
 ## Loopy bits
 ```cmp r0, r1``` - Compares the value in r0 to r1
