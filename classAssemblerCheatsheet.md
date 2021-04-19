@@ -34,7 +34,17 @@
 
 
 ## Useful loops
-### basic swap bge
+### basic swap
+```load A, r0```<br>
+```load B, r1```<br>
+```store r1, A```<br>
+```store r0,B ```<br>
+```halt```<br>
+```A: 2```<br>
+```B: 4```<br>
+
+
+### basic sort bge
 ```load A, r0```<br>
 ```load B, r1```<br>
 
@@ -52,6 +62,7 @@
 
 ```A: 8```<br>
 ```B: 16```<br>
+
 
 ### count i++
 This loop will count to 10
