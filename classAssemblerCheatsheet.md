@@ -36,11 +36,8 @@ By Diego Pisciotta, 2021<br>
 
 ## Misc.
 ```halt``` - stops operation of SC == hex code 'a1'<br>
+
 ```clear r0``` - clears the value in r0 (sets r0 to 0)<br>
-
-
-
-
 
 
 # Useful assembly code
