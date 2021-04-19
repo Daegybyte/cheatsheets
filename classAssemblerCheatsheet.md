@@ -33,7 +33,19 @@
 ```clear r0``` - clears the value in r0 (sets r0 to 0)<br>
 
 
-# Useful loops
+# Useful assembly code
+
+### addition
+```load A, r0```<br>
+```load B, r1 ```<br>
+```add r0, r1, r0```<br>
+```store r0, C```<br>
+```halt```<br>
+```A: 8```<br>
+```B: 16```<br>
+```C: 0```<br>
+
+
 ### basic swap
 ```load A, r0```<br>
 ```load B, r1```<br>
