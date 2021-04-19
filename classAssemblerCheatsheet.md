@@ -16,23 +16,37 @@
 ```bgt X``` - branch greater than. Looks if current branch is greater than
 ```L: add r0,r1,r0``` - sers L to the value in r0
 
-### basic loop example
+### Basic loop example
 This loop will count to 20<br>
 <code>
-load i, r0 <br><br>
-load N, r1<br><br>
-LOOP:  cmp r0, r1<br><br>
-       bgt END<br><br>
-       load ONE, r1<br><br>
-       add r0,r1,r0<br><br>
-       store r0, i<br><br>
-       load N, r1<br><br>
-       jump LOOP<br><br>
-END:   halt<br><br>
-<br><br>
-N:     10<br><br>
-i:     1<br><br>
-ONE:   1<br><br>
+load i, r0 <br>
+
+load N, r1<br>
+
+LOOP:  cmp r0, r1<br>
+
+       bgt END<br>
+
+       load ONE, r1<br>
+
+       add r0,r1,r0<br>
+
+       store r0, i<br>
+
+       load N, r1<br>
+
+       jump LOOP<br>
+
+END:   halt<br>
+
+<br>
+
+N:     10<br>
+
+i:     1<br>
+
+ONE:   1<br>
+
 </code>
 ## Misc.
 ```halt``` - stops operation of SC == hex code 'a1'
