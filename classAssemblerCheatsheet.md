@@ -3,7 +3,7 @@
 
 ```load B, r1``` - Loads value in A to register 1
 
-```store R0, e``` - Stores hex 'e' into memory
+```store R0, e``` - Stores hex 'e' into r0
 
 
 ```add r0,r1,r0``` - adds r1+r0 and stores the sum to r0 
@@ -16,12 +16,12 @@
 ## Loopy bits
 ```cmp r0, r1``` - Compares the value in r0 to r1
 
-```bgt X``` - branch greater than. Looks if current branch is greater than
+```bgt``` - branch greater than
 
-```L: add r0,r1,r0``` - sers L to the value in r0
+```L: add r0,r1,r0``` - sets L to the value in r0
 
 ### Basic loop example
-This loop will count to 20
+This loop will count to 10
 
 ```load i, r0``` <br>
 ```load N, r1```<br>
