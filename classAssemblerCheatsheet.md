@@ -1,11 +1,13 @@
 # Simple Assembler Cheatsheet
 ```load A, r0``` - Loads value in A to register 0
+
 ```load B, r1``` - Loads value in A to register 1
 
 ```store R0, e``` - Stores hex 'e' into memory
 
 
 ```add r0,r1,r0``` - adds r1+r0 and stores the sum to r0 
+
 ```sub r1,r0,r1``` - subtracts r1 - r0 and a stores value to r1. 
 
 ## Set variables
@@ -13,7 +15,9 @@
 
 ## Loopy bits
 ```cmp r0, r1``` - Compares the value in r0 to r1
+
 ```bgt X``` - branch greater than. Looks if current branch is greater than
+
 ```L: add r0,r1,r0``` - sers L to the value in r0
 
 ### Basic loop example
@@ -41,4 +45,5 @@ This loop will count to 20
 
 ## Misc.
 ```halt``` - stops operation of SC == hex code 'a1'
+
 ```clear r0``` - clears the value in r0 (sets r0 to 0)
