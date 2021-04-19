@@ -24,7 +24,36 @@
 
 ```jump ``` - jump skips over code to a scecfic place. In a loop, jump is placed at the end<br>of the loop to go back to the top of the loop to (maybe) run again.
 
-### Basic loop example
+
+
+
+## Misc.
+```halt``` - stops operation of SC == hex code 'a1'
+
+```clear r0``` - clears the value in r0 (sets r0 to 0)
+
+
+## Useful loops
+### basic swap bge
+```load A, r0```<br>
+```load B, r1```<br>
+
+```cmp r0,r1```<br>
+
+   ```bgt swap```<br>
+   ```store r1, B```<br>
+   ```store r0, A```<br>
+
+```halt```<br>
+```swap: ```<br>
+   ```store r0, B```<br>
+   ```store r1, A```<br>
+```halt```<br>
+
+```A: 8```<br>
+```B: 16```<br>
+
+### count i++
 This loop will count to 10
 
 ```load i, r0``` <br>
@@ -46,8 +75,3 @@ This loop will count to 10
 ```i:     1```<br>
 
 ```ONE:   1```<br>
-
-## Misc.
-```halt``` - stops operation of SC == hex code 'a1'
-
-```clear r0``` - clears the value in r0 (sets r0 to 0)
