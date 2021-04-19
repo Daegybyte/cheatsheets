@@ -33,7 +33,7 @@
 ```clear r0``` - clears the value in r0 (sets r0 to 0)
 
 
-## Useful loops
+# Useful loops
 ### basic swap
 ```load A, r0```<br>
 ```load B, r1```<br>
@@ -65,8 +65,6 @@
 
 
 ### count i++
-This loop will count to 10
-
 ```load i, r0``` <br>
 ```load N, r1```<br>
 
