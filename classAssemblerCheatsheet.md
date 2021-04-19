@@ -1,4 +1,5 @@
 # Simple Assembler Cheatsheet for CS1030
+By Diego Pisciotta, 2021
 ```load A, r0``` - Loads value in A to register 0
 
 ```load B, r1``` - Loads value in A to register 1
