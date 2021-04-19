@@ -3,16 +3,16 @@ By Diego Pisciotta, 2021<br>
 
 ### You can find the assembler [here](https://my.eng.utah.edu/~cs1400/assembler-master/Assembler.html)
 
-```load A, r0``` - Loads value in A to register 0
+```load A, r0``` - Loads value in A to register 0 <br>
 
-```load B, r1``` - Loads value in A to register 1
+```load B, r1``` - Loads value in A to register 1 <br>
 
-```store R0, 0``` - Stores r0 to memory address 0
+```store R0, 0``` - Stores r0 to memory address 0 <br>
 
+```add r0,r1,r0``` - adds r1+r0 and stores the sum to r0 <br>
 
-```add r0,r1,r0``` - adds r1+r0 and stores the sum to r0 
+```sub r1,r0,r1``` - subtracts r1 - r0 and a stores value to r1. *The order is *very* important for subtraction*<br>*compared to addition*<br>
 
-```sub r1,r0,r1``` - subtracts r1 - r0 and a stores value to r1. *The order is *very* important for subtraction*<br>*compared to addition*
 
 ## Set variables
 ```A: 1```
@@ -21,10 +21,15 @@ By Diego Pisciotta, 2021<br>
 
 ## Loopy bits
 ```cmp r0, r1``` - Compares the value in r0 to r1<br>
+
 ```bgt ____``` - branch greater than requires an additional input<br>
-```bne``` - branch not equal to ~ to if statement. Compares registers 
+
+```bne``` - branch not equal to ~ to if statement. Compares registers <br>
+
 ```L: add r0,r1,r0``` - sets L to the value in r0<br>
+
 ```jump _____ ``` - jump skips over code to a scecfic place ______. In a loop, jump is placed at the end<br>of the loop to go back to the top of the loop to (maybe) run again.<br>
+
 
 
 
@@ -32,6 +37,10 @@ By Diego Pisciotta, 2021<br>
 ## Misc.
 ```halt``` - stops operation of SC == hex code 'a1'<br>
 ```clear r0``` - clears the value in r0 (sets r0 to 0)<br>
+
+
+
+
 
 
 # Useful assembly code
