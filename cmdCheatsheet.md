@@ -31,7 +31,7 @@
 ```cp <file> <dir>``` - copy file to folder <br />
 ```cp <file> <newFile>``` - copy file to current folder <br />
 ```mv <file> <newFile>``` - move/rename <br />
-
+ 
 ### Git
 ```git add .``` - puts all files currently not saved to upload on deck <br />
 ```git add -u``` - adds any edited files, but *not* newly created files <br />
