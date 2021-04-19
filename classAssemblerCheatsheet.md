@@ -25,8 +25,8 @@ This loop will count to 20
 ```LOOP:  cmp r0, r1```<br>
 
 ```bgt END```<br>
-```load ONE, r1``<br>
-```add r0,r1,r0``<br>
+```load ONE, r1```<br>
+```add r0,r1,r0```<br>
 ```store r0, i```<br>
 ```load N, r1```<br>
 ```jump LOOP```<br>
