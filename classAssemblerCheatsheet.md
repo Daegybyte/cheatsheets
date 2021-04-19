@@ -1,4 +1,4 @@
-# Simple Assembler Cheatsheet
+# Simple Assembler Cheatsheet for CS1030
 ```load A, r0``` - Loads value in A to register 0
 
 ```load B, r1``` - Loads value in A to register 1
@@ -42,6 +42,7 @@
 ```A: 8```<br>
 ```B: 16```<br>
 ```C: 0```<br>
+
 
 
 ### basic swap
@@ -93,21 +94,21 @@
 ```E: -1```<br>
 
 
-### count i++
+### while loop count i++
 ```load i, r0``` <br>
 ```load N, r1```<br>
 
 ```LOOP:  cmp r0, r1```<br>
 
-```bgt END```<br>
-```load ONE, r1```<br>
+```bgt DONE```<br>
+```load Output, r1```<br>
 ```add r0,r1,r0```<br>
 ```store r0, i```<br>
-```load N, r1```<br>
+```load Num, r1```<br>
 ```jump LOOP```<br>
 
-```END: halt```<br>
+```DONE: halt```<br>
 
-```N: 10```<br>
+```Num: 10```<br>
 ```i: 1```<br>
-```ONE: 1```<br>
+```Output: 1```<br>
