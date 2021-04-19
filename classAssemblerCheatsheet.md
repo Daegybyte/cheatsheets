@@ -100,7 +100,7 @@ By Diego Pisciotta, 2021<br>
 
 ### while loop count i++
 ```load i, r0``` <br>
-```load N, r1```<br>
+```load Num, r1```<br>
 
 ```LOOP:  cmp r0, r1```<br>
 
