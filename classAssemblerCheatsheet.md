@@ -17,22 +17,22 @@
 ```L: add r0,r1,r0``` - sers L to the value in r0
 
 ### basic loop example
-This loop will count to 20
+This loop will count to 20<br>
 <code>
-load i, r0
-load N, r1
-LOOP:  cmp r0, r1
-       bgt END
-       load ONE, r1
-       add r0,r1,r0
-       store r0, i
-       load N, r1
-       jump LOOP
-END:   halt
-
-N:     10
-i:     1
-ONE:   1
+load i, r0 <br>
+load N, r1<br>
+LOOP:  cmp r0, r1<br>
+       bgt END<br>
+       load ONE, r1<br>
+       add r0,r1,r0<br>
+       store r0, i<br>
+       load N, r1<br>
+       jump LOOP<br>
+END:   halt<br>
+<br>
+N:     10<br>
+i:     1<br>
+ONE:   1<br>
 </code>
 ## Misc.
 ```halt``` - stops operation of SC == hex code 'a1'
