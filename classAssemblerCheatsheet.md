@@ -15,9 +15,12 @@ By Diego Pisciotta, 2021<br>
 
 
 ## Set variables
+Creates two vars A and B and sets them to 1 and 2
+
+
 ```A: 1```
 
-```B: 2``` - Creates two vars A and B and sets them to 1 and 2
+```B: 2``` 
 
 ## Loopy bits
 ```cmp r0, r1``` - Compares the value in r0 to r1<br>
