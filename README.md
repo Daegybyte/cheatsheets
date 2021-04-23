@@ -1,4 +1,3 @@
-#hello
 # Cheatsheet contents
 
 ### Assembly Code Cheatsheet
