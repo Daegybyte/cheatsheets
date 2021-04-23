@@ -6,7 +6,7 @@
 ```ls -a``` - lists all entries in a directory <br />
 ```ls -l``` - long list <br />
 ```ls -g``` - shows colours <br />
-```ls desktop``` - displays what is on the desktop <br />
+```ls ~/Desktop``` - displays what is on the desktop <br />
 ```cat``` <file> - print the contents of a file into terminal <br />
 ```head <file>``` - prints the first 10 lines <br />
 ```tail <file>``` - prints the last 10 lines <br />
