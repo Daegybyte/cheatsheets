@@ -2,5 +2,5 @@
 
 ## Most Useful<br/>
 ### Convert list to array:
-find: (.*)
-Replace: "$0",<br/>
+Find: ```(.*)```<br/>
+Replace: ```"$0",```<br/>
