@@ -11,3 +11,6 @@ How to make a basic compile using Clang++ in terminal<br />
 
 ### JavaScript
 Some useful methods in Javascript
+
+### Regex
+Basic and useful regex
