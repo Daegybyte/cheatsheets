@@ -1,7 +1,7 @@
 ## Command Line Cheat Sheet
 
 ### Display
-```pwd``` - (Present Working Directory) see your current folder and branch from root<br />
+```pwd``` - (Print Working Directory) see your current folder and branch from root<br />
 ```ls``` - displays name of files in a directory <br />
 ```ls -a``` - lists all entries in a directory <br />
 ```ls -l``` - long list <br />
