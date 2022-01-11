@@ -41,6 +41,17 @@
 ```git status``` - helps diagnose potential problems <br />
 ```echo .DS_Store >> .gitignore ``` - creates a .gitignore for .DS_Store<br />
 
+
+### Work Branch
+```git branch -d work``` - delete the 'work' branch <br />
+```git branch work``` - create 'work' branch <br />
+```git checkout work``` - switch to work branch <br />
+
+### Working state, switch back to main
+```git checkout main```
+```git merge --squash work``` - merges main and work, deletes work
+```git commit -m "Nice message for others to read"```
+
 ### Misc. <br />
 ```ssh``` - "secure shell" allows remote control/access of offsite machines <br />
 ```find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch``` - finds a file called .DS store, prints its locations and deletes them all <br />
