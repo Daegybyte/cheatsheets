@@ -31,26 +31,6 @@
 ```cp <file> <dir>``` - copy file to folder <br />
 ```cp <file> <newFile>``` - copy file to current folder <br />
 ```mv <file> <newFile>``` - move/rename <br />
- 
-### Git
-```git add .``` - puts all files currently not saved to upload on deck <br />
-```git add -u``` - adds any edited files, but *not* newly created files <br />
-```git commit``` - takes a snapshot of your work <br />
-```git push``` - copies the snapshot *to* GitHub <br />
-```git pull``` - copies the snapshot *from* Github <br />
-```git status``` - helps diagnose potential problems <br />
-```echo .DS_Store >> .gitignore ``` - creates a .gitignore for .DS_Store<br />
-
-
-### Work Branch
-```git branch -d work``` - delete the 'work' branch <br />
-```git branch work``` - create 'work' branch <br />
-```git checkout work``` - switch to work branch <br />
-
-### Working state, switch back to main
-```git checkout main```
-```git merge --squash work``` - merges main and work, deletes work
-```git commit -m "Nice message for others to read"```
 
 ### Misc. <br />
 ```ssh``` - "secure shell" allows remote control/access of offsite machines <br />
