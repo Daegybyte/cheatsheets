@@ -16,7 +16,7 @@
 
 ### Working state, switch back to main
 ```git checkout``` - Lists all branches.<br />
-        ```q``` - exit branch list
+```q``` - exit branch list<br />
 ```git checkout main``` - Switches to ```main``` branch.<br />
 ```git merge --squash work``` - merges main and work, deletes work<br />
 ```git commit -m "Nice message for others to read"```<br />
