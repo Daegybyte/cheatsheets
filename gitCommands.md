@@ -15,9 +15,9 @@
 ```git checkout newBranchName``` - switch to work branch <br />
 
 ### Working state, switch back to main
-```git checkout``` - Lists all branches.
-    *```q``` - exit branch list
-```git checkout main``` - Switches to ```main``` branch.
-```git merge --squash work``` - merges main and work, deletes work
-```git commit -m "Nice message for others to read"```
+```git checkout``` - Lists all branches.<br />
+        ```q``` - exit branch list
+```git checkout main``` - Switches to ```main``` branch.<br />
+```git merge --squash work``` - merges main and work, deletes work<br />
+```git commit -m "Nice message for others to read"```<br />
 
