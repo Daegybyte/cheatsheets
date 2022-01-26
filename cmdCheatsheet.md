@@ -36,6 +36,13 @@
 ```ssh``` - "secure shell" allows remote control/access of offsite machines <br />
 ```find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch``` - finds a file called .DS store, prints its locations and deletes them all <br />
 
+### Processes <br />
+```ps``` - lists processes that are running <br />
+```ps -a``` - lists all processes that are running, including ones that you are not in charge of <br />
+```top``` - lists proccesses and how much cpu they're using <br />
+```kill -9 PID``` - kills the process with the specified PID - be careful <br />
+
+
 ### Chmod <br />
 ```chmod 755 -R fileName``` - turns file into executable <br />
 Chmod commands can be found [here](https://chmodcommand.com/chmod-755/) 
